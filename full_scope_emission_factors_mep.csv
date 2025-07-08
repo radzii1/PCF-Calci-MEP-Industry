@@ -1,0 +1,20 @@
+Item,Emission Factor (kg CO₂e/unit),Unit,Scope,Category
+Diesel,2.68,Litre,Scope 1,Fuel
+Petrol (Gasoline),2.31,Litre,Scope 1,Fuel
+Refrigerant R-410A Leakage,2088.0,kg,Scope 1,Gas
+Refrigerant R-134a Leakage,1430.0,kg,Scope 1,Gas
+Refrigerant R-407c Leakage,1774.0,kg,Scope 1,Gas
+Refrigerant R-32 Leakage,675.0,kg,Scope 1,Gas
+Refrigerant R-22 Leakage,1810.0,kg,Scope 1,Gas
+Acetylene,1.57,kg,Scope 1,Industrial Gas
+Nitrogen (N2),0.0,m³,Scope 1,Industrial Gas
+Oxygen,0.0,m³,Scope 1,Industrial Gas
+Electricity (UAE Grid),0.423,kWh,Scope 2,Energy
+Plastic (LDPE),1.75,kg,Scope 3,Material
+Steel,1.85,kg,Scope 3,Material
+Cardboard Box,0.15,unit,Scope 3,Material
+Employee Commuting,0.21,km,Scope 3,Activity
+Business Travel - Flight,0.255,km,Scope 3,Activity
+Transportation (Truck),0.12,ton-km,Scope 3,Logistics
+Water Consumption,0.344,m³,Scope 3,Resource
+Waste to Landfill,1.87,kg,Scope 3,Waste
