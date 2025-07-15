@@ -53,3 +53,19 @@ plt.xticks(rotation=45, ha='right')
 plt.ylabel("kg CO₂e per unit")
 plt.tight_layout()
 st.pyplot(fig)
+st.markdown("---")
+st.header("📄 Optional: Paper Emissions Calculator")
+
+st.caption("Estimate CO₂ emissions from standard A4 office paper (80gsm).")
+
+# Input: number of A4 sheets
+sheets = st.number_input("Enter number of A4 sheets used:", min_value=0, value=1000, step=100)
+
+# Emission factor per sheet (standard lifecycle, including production + disposal)
+emission_per_sheet = 0.0045  # 4.5 grams = 0.0045 kg CO₂e
+
+# Calculation
+paper_emissions = sheets * emission_per_sheet
+
+# Output
+st.metric("📦 Estimated Paper Emissions", f"{paper_emissions:.2f} kg CO₂e")
