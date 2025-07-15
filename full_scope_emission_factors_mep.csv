@@ -18,4 +18,4 @@ Business Travel - Flight,0.255,km,Scope 3,Activity
 Transportation (Truck),0.12,ton-km,Scope 3,Logistics
 Water Consumption,0.344,m³,Scope 3,Resource
 Waste to Landfill,1.87,kg,Scope 3,Waste
-Paper (A4 Office), 5.4,sheets,Scope 3,Material
+Paper (A4 Office), 0.0045,sheets,Scope 3,Material
