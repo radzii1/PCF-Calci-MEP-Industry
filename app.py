@@ -54,8 +54,5 @@ plt.ylabel("kg CO₂e per unit")
 plt.tight_layout()
 st.pyplot(fig)
 st.markdown("---")
-st.header("📄 Optional: Paper Emissions Calculator")
-
-st.caption("Estimate CO₂ emissions from standard A4 office paper (80gsm).")
 
 
