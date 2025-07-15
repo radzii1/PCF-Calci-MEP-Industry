@@ -20,14 +20,22 @@ selected_category = st.selectbox("Select Category", filtered_scope["Category"].u
 filtered_category = filtered_scope[filtered_scope["Category"] == selected_category]
 
 selected_item = st.selectbox("Select Item", filtered_category["Item"].unique())
-selected_row = filtered_category[filtered_category["Item"] == selected_item].iloc[0]
+selected_row_df = filtered_category[filtered_category["Item"] == selected_item]
 
-# Input quantity
-quantity = st.number_input(f"Enter quantity ({selected_row['Unit']}):", min_value=0.0, value=1.0)
+# Handle empty selection
+if not selected_row_df.empty:
+    selected_row = selected_row_df.iloc[0]
+    
+    # Input quantity
+    unit = selected_row["Unit"]
+    emission_factor = float(selected_row["Emission Factor (kg CO₂e/unit)"])
+    quantity = st.number_input(f"Enter quantity ({unit}):", min_value=0.0, value=1.0)
 
-# Calculate emissions
-emissions = quantity * selected_row["Emission Factor (kg CO₂e/unit)"]
-st.metric(label=f"Estimated Emissions from {selected_item}", value=f"{emissions:.2f} kg CO₂e")
+    # Calculate emissions
+    emissions = quantity * emission_factor
+    st.metric(label=f"Estimated Emissions from {selected_item}", value=f"{emissions:.2f} kg CO₂e")
+else:
+    st.warning("⚠️ No emission factor data available for the selected item.")
 
 # Bar chart for top items in selected category
 st.subheader(f"🔍 Emission Factors – {selected_category} in {selected_scope}")
