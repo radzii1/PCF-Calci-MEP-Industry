@@ -12,6 +12,9 @@ This is a Streamlit-based web application built to visualize and estimate **prod
 - Real-time emission calculation
 - Visual bar chart for comparative emission factor insight
 
+### https://pcf-calci-mep-industry-nkpq9cyupcpwnjbvtnwnjz.streamlit.app/ 
+try the app 
+
 ###  Dataset
 
 Emission factors are based on industry and UAE-specific standards where applicable. The dataset includes over 20 common MEP-related items (e.g., Diesel, Steel, R-134a, Electricity, Paper, Truck Transport).
