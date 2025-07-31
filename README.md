@@ -1,6 +1,6 @@
 # ♻️ MEP Sector Carbon Emissions Calculator (Scope 1, 2, 3)
 
-This is a Streamlit-based web application built to visualize and estimate ** carbon emissions** for various materials, fuels, utilities, and activities relevant to the **MEP (Mechanical, Electrical, and Plumbing) sector**, based on **Scope 1, 2, and 3** emission factors.
+This is a Streamlit-based web application built to visualize and estimate **carbon emissions** for various materials, fuels, utilities, and activities relevant to the **MEP (Mechanical, Electrical, and Plumbing) sector**, based on **Scope 1, 2, and 3** emission factors.
 
 ###  Features
 
