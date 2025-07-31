@@ -9,7 +9,7 @@ Refrigerant R-22 Leakage,1810.0,kg,Scope 1,Gas
 Acetylene,1.57,kg,Scope 1,Industrial Gas
 Nitrogen (N2),0.0,m³,Scope 1,Industrial Gas
 Oxygen,0.0,m³,Scope 1,Industrial Gas
-Electricity (UAE Grid),0.423,kWh,Scope 2,Energy
+Electricity (UAE Grid),0.40,kWh,Scope 2,Energy
 Plastic (LDPE),1.75,kg,Scope 3,Material
 Steel,1.85,kg,Scope 3,Material
 Cardboard Box,0.15,unit,Scope 3,Material
