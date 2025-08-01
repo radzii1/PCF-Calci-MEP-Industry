@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Load the emissions dataset
 df = pd.read_csv("full_scope_emission_factors_mep.csv")
 
-st.title("Scope 1, 2, 3 Emission Calculator For Bin Dasmal Group")
+st.title("Scope 1, 2, 3 Emission Calculator For BETAM")
 st.caption("Interactive tool to explore GHG emission factors by scope, category, and item.")
 
 # Show full dataset
