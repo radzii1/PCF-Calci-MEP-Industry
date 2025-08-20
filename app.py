@@ -43,16 +43,4 @@ if not selected_row_df.empty:
 else:
     st.warning("⚠️ No emission factor data available for the selected item.")
 
-# Bar chart for top items in selected category
-st.subheader(f"🔍 Emission Factors – {selected_category} in {selected_scope}")
-top_items = filtered_scope[filtered_scope["Category"] == selected_category]
-
-fig, ax = plt.subplots()
-ax.bar(top_items["Item"], pd.to_numeric(top_items["Emission Factor (kg CO₂e/unit)"], errors='coerce'), color='teal')
-plt.xticks(rotation=45, ha='right')
-plt.ylabel("kg CO₂e per unit")
-plt.tight_layout()
-st.pyplot(fig)
-st.markdown("---")
-
 
