@@ -1,13 +1,13 @@
 Item,Emission Factor (kg CO₂e/unit),Unit,Scope,Category
 Diesel,2.68,Litre,Scope 1,Fuel
 Petrol (Gasoline),2.31,Litre,Scope 1,Fuel
-Refrigerant R-410A Leakage,2088.0,kg,Scope 1,Gas
-Refrigerant R-134a Leakage,1430.0,kg,Scope 1,Gas
-Refrigerant R-407c Leakage,1774.0,kg,Scope 1,Gas
-Refrigerant R-32 Leakage,675.0,kg,Scope 1,Gas
-Refrigerant R-22 Leakage,1810.0,kg,Scope 1,Gas
-Refrigerant R-141b Leakage,725.0,kg,Scope 1,Gas
-Refrigerant R-404a Leakage,3922.0,kg,Scope 1,Gas
+Refrigerant R-410A Leakage,2088.0,kg,Scope 1,Refrigerants 
+Refrigerant R-134a Leakage,1430.0,kg,Scope 1,Refrigerants 
+Refrigerant R-407c Leakage,1774.0,kg,Scope 1,Refrigerants 
+Refrigerant R-32 Leakage,675.0,kg,Scope 1,Refrigerants 
+Refrigerant R-22 Leakage,1810.0,kg,Scope 1,Refrigerants 
+Refrigerant R-141b Leakage,725.0,kg,Scope 1,Refrigerants 
+Refrigerant R-404a Leakage,3922.0,kg,Scope 1,Refrigerants 
 Acetylene,1.57,kg,Scope 1,Industrial Gas
 Nitrogen (N2),0.0,m³,Scope 1,Industrial Gas
 Oxygen,0.0,m³,Scope 1,Industrial Gas
